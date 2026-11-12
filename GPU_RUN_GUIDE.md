@@ -8,16 +8,17 @@
 
 After Steps 1–3, check these values:
 
-- roof position: [266.734, 130.195, 49.5552]
-- mast height: 5 m
-- antenna position: [266.734, 130.195, 54.5552]
-- UE centre: [20, 283]
+- roof position: [62.16, 126.9, 28.3481]
+- mast height: 1.5 m
+- antenna position: [62.16, 126.9, 29.8481]
+- Blender UE-plane centre: [20, 283, 30]
 - UE area: 300 m × 300 m
 - candidate locations: 961
 - outdoor locations: 495
-- downtilt: about 9.59°
+- split counts: 301 train, 68 validation, 98 test, 28 buffer
+- downtilt: about 8.56°
 
-Before the long ray-tracing cell, the geometry check should show 33 LoS and
+Before the long ray-tracing cell, the geometry check should show 29 LoS and
 438 NLoS non-buffer locations.
 
 Step 8 can take a long time. To test the receiver code first, set
